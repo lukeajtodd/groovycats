@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 h1 {
   margin: 0;
 }
@@ -26,7 +34,34 @@ body {
   display: inline-block;
   font-family: "Arabella", sans-serif;
   font-size: 8em;
-  margin: 15px 0 0 45px;
+  margin: 15px 0 0 90px;
   text-align: center;
   word-spacing: -0.2em;
+}
+
+.main-footer {
+  margin: auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+.footer-menu {
+  text-align: center;
+}
+
+.footer-menu li {
+  display: inline-block;
+}
+
+.link {
+  color: white;
+}
+
+
+.fb:before {
+  /* FB ICON HERE */
+}
+
+.tw:before {
+  /*TW ICON HERE */
 }
