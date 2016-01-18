@@ -1,3 +1,7 @@
+/*************
+STANDARDIZING
+**************/
+
 * {
   box-sizing: border-box;
 }
@@ -16,30 +20,63 @@ h1 {
   margin: 0;
 }
 
-@font-face {
-  font-family: "Arabella";
-  src: url("../assets/Arabella.ttf");
+video {
+  display: block;
 }
 
 body {
   background: white;
 }
 
-.main-header {
-  margin: 19rem auto;
-  max-width: 960px;
+/*************
+FONTS
+**************/
+
+@font-face {
+  font-family: "Pacifico";
+  src: url("../assets/Pacifico.ttf");
+}
+
+@font-face {
+  font-family: "Arimo";
+  src: url("../assets/Arimo-Regular.ttf");
+}
+
+/*************
+HEADER STYLING
+**************/
+
+.container {
+  margin: 35vh auto;
+  max-width: 1200px;
   width: 100%;
 }
 
 .title {
-  color: black;
+  color: #fff;
   display: inline-block;
-  font-family: "Arabella", sans-serif;
-  font-size: 8em;
-  padding: 35px 0 0 100px;
+  font-family: "Pacifico", sans-serif;
+  font-size: 9em;
+  margin-left: 4.5vw;
   text-align: center;
-  word-spacing: -0.2em;
 }
+
+#header-bgvid {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+
+/*************
+FLOAT_FOOTER STYLING
+**************/
 
 .footer-menu {
   background: black;
@@ -53,7 +90,7 @@ body {
   position: fixed;
   right: 1em;
   text-align: center;
-  
+
   width: 4.8em;
 }
 .footer-menu li:last-child {

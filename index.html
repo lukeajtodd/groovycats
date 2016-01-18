@@ -8,15 +8,23 @@
     <meta name="keywords" content="swing,pop,band,music,groovy,cats">
     <meta name="author" content="Luke Todd">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    
+    <!--[if lt IE 9]>
+    <script>
+	    document.createElement('video');
+    </script>
+    <![endif]-->
   </head>
-  
+
   <body>
     <div class="container">
     <header class="main-header">
       <h1 class="title">The Groovy Cats</h1>
+      <video autoplay muted loop poster="" id="header-bgvid">
+        <source src="assets/imageandvideo/rcobgvid.webm" type="video/webm">
+        <source src="assets/imageandvideo/rcobgvid.mp4" type="video/mp4">
+      </video>
     </header>
-    
+
     <footer class="main-footer">
       <ul class="footer-menu">
         <li><a class="link" href="https://www.facebook.com/TheGroovyCats"><img src="assets/fb-sq.min.svg" alt="fb icon" class="fb"></a></li>
@@ -25,7 +33,7 @@
     </footer>
     </div>
   </body>
-  
+
   <!-- will be Google Analytics -->
   <script></script>
 </html>
