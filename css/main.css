@@ -49,8 +49,9 @@ HEADER STYLING
 **************/
 
 .main-header {
-  margin: 35vh auto;
+  margin: 0 auto;
   max-width: 1200px;
+  padding: 350px 0;
   text-align: center;
   width: 100%;
 }
@@ -63,6 +64,7 @@ HEADER STYLING
 }
 
 #header-bgvid {
+  border-bottom: 2px solid #fff;
   -webkit-filter: brightness(60%);
           filter: brightness(60%);
   position: absolute;
@@ -83,27 +85,54 @@ BIO STYLING
 **************/
 
 .bio {
-  margin: 60vh auto;
-  width: 100%;
+  display: inline-block;
+  margin: 120px auto;
+  padding: 50px 0;
+  width: 60%;
 }
 
 .b-member {
   display: table;
-  margin-bottom: 25px;
+  margin: 25px auto;
+  width: 50vw;
 }
 
 .b-member img {
-  width: 40vw;
+  width: 20vw;
 }
 
 .b-member p {
   display: table-cell;
   color: #fff;
   font-family: "Arimo", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   vertical-align: middle;
-  width: 60vw;
+  width: 30vw;
+}
+
+/*************
+SCHEDULE STYLING
+**************/
+
+.schedule {
+  display: inline-block;
+  float: right;
+  margin: 120px auto;
+  padding: 50px 0;
+  width: 40%;
+}
+
+.item {
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  width: 30vw;
+}
+
+.item p, h3 {
+  color: #fff;
+  font-family: "Arimo", sans-serif;
 }
 
 /*************
