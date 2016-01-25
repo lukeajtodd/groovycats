@@ -1,0 +1,189 @@
+@media only screen and (max-width : 1600px) {
+  .b-member p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width : 1200px) {
+  .title {
+    font-size: 7rem;
+  }
+
+  .main-header {
+    padding-bottom: 400px;
+  }
+
+  .item p {
+    font-size: 1.5rem;
+  }
+
+  .b-member p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width : 980px) {
+  .item {
+    width: 24vw;
+  }
+
+  .item h3 {
+    font-size: 1.4rem;
+  }
+  .item p {
+    font-size: 1.3rem;
+  }
+
+  .b-member {
+    width: 95vw;
+  }
+
+  .b-member img {
+    width: 45vw;
+  }
+
+  .b-member p {
+    font-size: 1.2rem;
+    width: 45vw;
+  }
+}
+
+
+@media only screen and (max-width : 850px) {
+  .title {
+    font-size: 6rem;
+  }
+
+  .main-header {
+    padding-bottom: 450px;
+  }
+
+}
+
+/*****************
+  MOBILE STYLING
+*****************/
+
+@media only screen and (max-width : 750px) {
+  h3, p {
+    margin: 0;
+  }
+
+  #header-bgvid {
+    display: none;
+  }
+
+  .main-header {
+    padding: 80px 0;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .schedule {
+    margin-top: 0;
+  }
+
+  .item {
+    border-width: 1px 0;
+    display: inline-block;
+    width: 40%;
+  }
+  .item h3 {
+    border: none;
+    font-size: 2.5rem;
+    padding-top: 10px;
+  }
+  .b-member {
+    display: block;
+    text-align: center;
+  }
+
+  .b-member h3, img, p {
+    margin: 0 auto;
+  }
+
+  .b-member h3 {
+    display: block;
+    padding-bottom: 15px;
+    width: 80vw;
+  }
+
+  .b-member img {
+    display: none;
+  }
+
+  .b-member p {
+    display: block;
+    width: 80vw;
+  }
+
+  .footer-menu {
+    display: inline-block;
+    height: 0;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    right: 8%;
+    top: 0.1rem;
+    width: 80vw;
+  }
+
+  .footer-menu li {
+    display: inline;
+    padding: 0 20px;
+  }
+
+  .fb, .tw, .mail, .yt {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width : 515px) {
+  .title {
+    font-size: 4.4rem;
+  }
+
+  .item {
+    width: 60%;
+  }
+
+  .footer-menu li {
+    padding: 0 10px;
+  }
+
+  .fb, .tw, .mail, .yt {
+    width: 15%;
+  }
+}
+
+@media only screen and (max-width : 390px) {
+  .title {
+    font-size: 3rem;
+  }
+
+  .main-header {
+    padding: 65px 0;
+    padding-bottom: 40px;
+  }
+
+  .item h3 {
+    font-size: 1.4rem;
+  }
+  .item p {
+    font-size: 1rem;
+  }
+
+  .b-member h3 {
+    font-size: 1.4rem;
+  }
+
+  .b-member p {
+    font-size: 1rem;
+  }
+
+  .fb, .tw, .mail, .yt {
+    width: 13%;
+  }
+}

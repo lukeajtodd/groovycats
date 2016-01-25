@@ -8,6 +8,7 @@
     <meta name="keywords" content="swing,pop,band,music,groovy,cats">
     <meta name="author" content="Luke Todd">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/mediaqueries.css">
     <!--[if lt IE 9]>
     <script>
 	    document.createElement('video');
@@ -23,49 +24,65 @@
         <source src="assets/video/obgvid.mp4" type="video/mp4">
       </video>
     </header>
+    <div class="container">
+      <!--
+      <nav id="main-nav">
+        <ul class="main-nav-list">
+          <li><button class="bio-btn" onclick="">BIO</button></li>
+          <li><button class="sched-btn" onclick="">SCHEDULE</button></li>
+          <li><button class="contact-btn" onclick="">CONTACTS</button></li>
+        </ul>
+      </nav>
+    -->
+      <section class="schedule">
+        <div class="item">
+          <h3>Function 1</h3>
+          <p>25th February 2016</p>
+        </div>
+        <div class="item">
+          <h3>Function 1</h3>
+          <p>25th February 2016</p>
+        </div>
+        <div class="item">
+          <h3>Function 1</h3>
+          <p>25th February 2016</p>
+        </div>
+        <div class="item">
+          <h3>Function 1</h3>
+          <p>25th February 2016</p>
+        </div>
+      </section>
 
-    <section class="bio">
-      <div class="b-member">
-        <img src="assets/images/DSC_0979.jpg" alt="band member">
-        <p>This dude plays the bass allllll night.</p>
-      </div>
-      <div class="b-member">
-        <p>This dude plays the bass allllll night.</p>
-        <img src="assets/images/DSC_0979.jpg" alt="band member">
-      </div>
-      <div class="b-member">
-        <img src="" alt="band member">
-        <p></p>
-      </div>
-      <div class="b-member">
-        <img src="" alt="band member">
-        <p></p>
-      </div>
-    </section>
-
-    <section class="schedule">
-      <div class="item">
-        <h3>Function 1</h3>
-        <p>25th February 2016</p>
-      </div>
-      <div class="item">
-        <h3>Function 1</h3>
-        <p>25th February 2016</p>
-      </div>
-      <div class="item">
-        <h3>Function 1</h3>
-        <p>25th February 2016</p>
-      </div>
-      <div class="item">
-        <h3>Function 1</h3>
-        <p>25th February 2016</p>
-      </div>
-    </section>
+      <section class="bio">
+        <div class="b-member">
+          <h3 class=band-title>Oliver Stone</h3>
+          <img src="assets/images/DSC_0979.jpg" alt="band member">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="b-member">
+          <h3 class=band-title>Robert Brooks</h3>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <img src="assets/images/DSC_1007.jpg" alt="band member">
+        </div>
+        <div class="b-member">
+          <h3 class=band-title>Jareth Brownhill</h3>
+          <img src="assets/images/DSC_0976.jpg" alt="band member">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+        <div class="b-member">
+          <h3 class=band-title>Rupert Stone</h3>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          <img src="assets/images/DSC_1013.jpg" alt="band member">
+        </div>
+      </section>
+    </div>
 
     <footer class="main-footer">
       <ul class="footer-menu">
-        <li><a class="link" href="https://www.facebook.com/TheGroovyCats"><img src="assets/icons/fb-sq.min.svg" alt="fb icon" class="fb"></a></li>
-        <li><a class="link" href="https://twitter.com/thegroovycats"><img src="assets/icons/tw.min.svg" alt="tw icon" class="fb"></a></li>
+        <li><a class="link" href="https://www.facebook.com/TheGroovyCats"><img src="assets/icons/fb-sq.min.svg" alt="facebook icon" class="fb"></a></li>
+        <li><a class="link" href="https://twitter.com/thegroovycats"><img src="assets/icons/tw.min.svg" alt="twitter icon" class="fb"></a></li>
+        <li><a class="link" href="mailto:thegroovycats@gmail.com"><img src="assets/icons/mail.min.svg" alt="mail icon" class="mail"></a></li>
+        <li><a class="link" href="https://www.youtube.com/channel/UCtwLRrEBca7Jzuik0u0DOEw"><img src="assets/icons/yt.min.svg" alt="youtube icon" class="yt"></a></li>
       </ul>
     </footer>
 

@@ -28,6 +28,7 @@ video {
 
 body {
   background: #000;
+  margin: 0 auto;
 }
 
 /*************
@@ -49,8 +50,6 @@ HEADER STYLING
 **************/
 
 .main-header {
-  margin: 0 auto;
-  max-width: 1200px;
   padding: 350px 0;
   text-align: center;
   width: 100%;
@@ -60,11 +59,10 @@ HEADER STYLING
   color: #fff;
   display: inline-block;
   font-family: "Pacifico", sans-serif;
-  font-size: 9em;
+  font-size: 9rem;
 }
 
 #header-bgvid {
-  border-bottom: 2px solid #fff;
   -webkit-filter: brightness(60%);
           filter: brightness(60%);
   position: absolute;
@@ -80,59 +78,115 @@ HEADER STYLING
   background-size: cover;
 }
 
+
 /*************
-BIO STYLING
+MAIN NAV STYLING
 **************/
 
-.bio {
-  display: inline-block;
-  margin: 120px auto;
-  padding: 50px 0;
-  width: 60%;
+/*
+#main-nav {
+  background: rgba(30,30,31,.44);
+  margin: 110px auto 0 auto;
+  padding: 20px;
+  width: 100%;
 }
 
-.b-member {
-  display: table;
-  margin: 25px auto;
-  width: 50vw;
-}
-
-.b-member img {
-  width: 20vw;
-}
-
-.b-member p {
-  display: table-cell;
-  color: #fff;
-  font-family: "Arimo", sans-serif;
-  font-size: 1.5rem;
+.main-nav-list {
   text-align: center;
-  vertical-align: middle;
-  width: 30vw;
 }
+
+.main-nav-list li {
+  display: inline-block;
+  padding: 0 4em;
+}
+
+.bio-btn, .sched-btn, .contact-btn {
+  background: rgb(209,210,210);
+  border: none;
+  border-radius: 4%;
+  padding: 10px 15px;
+  width: 10em;
+}
+
+.bio-btn:focus, .sched-btn:focus, .contact-btn:focus {
+  background: rgb(155,159,159);
+  outline: none;
+}
+
+*/
 
 /*************
 SCHEDULE STYLING
 **************/
 
 .schedule {
+  background: rgba(30,30,31,.44);
   display: inline-block;
-  float: right;
-  margin: 120px auto;
-  padding: 50px 0;
-  width: 40%;
+  margin: 0;
+  margin-top: 130px;
+  text-align: center;
+  width: 100%;
 }
 
 .item {
+  display: inline-block;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 10px 5px;
   text-align: center;
-  width: 30vw;
+  width: 20vw;
 }
 
 .item p, h3 {
   color: #fff;
   font-family: "Arimo", sans-serif;
+  font-size: 1.8rem;
+}
+
+.item h3 {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+
+/*************
+BIO STYLING
+**************/
+
+.bio {
+  background: rgba(30,30,31,.44);
+  display: inline-block;
+  margin: 40px auto 0 auto;
+  width: 100%;
+}
+
+.b-member {
+  border-bottom: 1px solid #fff;
+  display: table;
+  margin: 25px auto;
+  padding-bottom: 25px;
+  width: 80vw;
+}
+
+.b-member:last-child {
+  border: none;
+}
+
+.b-member h3 {
+  display: none;
+}
+
+.b-member img {
+  margin: 0 30px;
+  width: 40vw;
+}
+
+.b-member p {
+  display: table-cell;
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.7rem;
+  text-align: center;
+  vertical-align: middle;
+  width: 40vw;
 }
 
 /*************
@@ -140,26 +194,15 @@ FLOAT_FOOTER STYLING
 **************/
 
 .footer-menu {
-  background: black;
-  bottom: 1rem;
-  border-radius: 2%;
-  box-shadow: 11px 12px 18px -4px rgba(0,0,0,0.75);
-  height: 9rem;
+  bottom: 0.5rem;
+  height: 16rem;
   padding: 15px 5px;
   position: fixed;
-  right: 1rem;
+  right: 0.5rem;
   text-align: center;
-
   width: 4.8rem;
 }
-.footer-menu li:last-child {
-  padding-top: 6%;
-}
 
-.link {
-  color: white;
-}
-
-.fb, .tw {
+.fb, .tw, .mail, .yt {
   width: 78%;
 }
