@@ -1,5 +1,5 @@
 /*************
-STANDARDIZING
+RESETS
 **************/
 
 * {
@@ -51,6 +51,7 @@ HEADER STYLING
 
 .main-header {
   padding: 350px 0;
+  padding-bottom: 350px;
   text-align: center;
   width: 100%;
 }
@@ -78,43 +79,6 @@ HEADER STYLING
   background-size: cover;
 }
 
-
-/*************
-MAIN NAV STYLING
-**************/
-
-/*
-#main-nav {
-  background: rgba(30,30,31,.44);
-  margin: 110px auto 0 auto;
-  padding: 20px;
-  width: 100%;
-}
-
-.main-nav-list {
-  text-align: center;
-}
-
-.main-nav-list li {
-  display: inline-block;
-  padding: 0 4em;
-}
-
-.bio-btn, .sched-btn, .contact-btn {
-  background: rgb(209,210,210);
-  border: none;
-  border-radius: 4%;
-  padding: 10px 15px;
-  width: 10em;
-}
-
-.bio-btn:focus, .sched-btn:focus, .contact-btn:focus {
-  background: rgb(155,159,159);
-  outline: none;
-}
-
-*/
-
 /*************
 SCHEDULE STYLING
 **************/
@@ -139,11 +103,12 @@ SCHEDULE STYLING
 .item p, h3 {
   color: #fff;
   font-family: "Arimo", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .item h3 {
   border-bottom: 1px solid #fff;
+  font-size: 2.3rem;
   padding-bottom: 10px;
 }
 

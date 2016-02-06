@@ -28,7 +28,7 @@
   }
 
   .item h3 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
   .item p {
     font-size: 1.3rem;
@@ -92,7 +92,7 @@
   }
   .item h3 {
     border: none;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding-top: 10px;
   }
   .b-member {
@@ -145,6 +145,11 @@
     font-size: 4.4rem;
   }
 
+  .main-header {
+    padding: 65px 0;
+    padding-bottom: 40px;
+  }
+
   .item {
     width: 60%;
   }
@@ -161,11 +166,6 @@
 @media only screen and (max-width : 390px) {
   .title {
     font-size: 3rem;
-  }
-
-  .main-header {
-    padding: 65px 0;
-    padding-bottom: 40px;
   }
 
   .item h3 {
