@@ -116,6 +116,10 @@ SCHEDULE STYLING
 BIO STYLING
 **************/
 
+.name {
+  font-weight: bold;
+}
+
 .bio {
   background: rgba(30,30,31,.44);
   display: inline-block;
