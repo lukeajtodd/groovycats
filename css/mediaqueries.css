@@ -27,7 +27,7 @@
     width: 24vw;
   }
 
-  .item h3 {
+  .no-shows, .item h3 {
     font-size: 1.6rem;
   }
   .item p {
@@ -90,7 +90,7 @@
     display: inline-block;
     width: 40%;
   }
-  .item h3 {
+  .no-shows, .item h3 {
     border: none;
     font-size: 2.2rem;
     padding-top: 10px;
@@ -168,7 +168,7 @@
     font-size: 3rem;
   }
 
-  .item h3 {
+  .no-shows, .item h3 {
     font-size: 1.4rem;
   }
   .item p {
