@@ -37,12 +37,22 @@ FONTS
 
 @font-face {
   font-family: "Pacifico";
-  src: url("../assets/fonts/Pacifico.ttf");
+  src: url("../assets/fonts/hinted-Pacifico-regular.eot");
+  src: url("../assets/fonts/hinted-Pacifico-regular.woff2") format('woff2'),
+  url("../assets/fonts/hinted-Pacifico-regular.woff") format('woff'),
+  url("../assets/fonts/hinted-Pacifico-regular.ttf") format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "Arimo";
-  src: url("../assets/fonts/Arimo-Regular.ttf");
+  src: url("../assets/fonts/hinted-Arimo.eot")
+  src: url("../assets/fonts/hinted-Arimo.woff2") format('woff2'),
+  url("../assets/fonts/hinted-Arimo.woff") format('woff'),
+  url("../assets/fonts/hinted-Arimo.tff") format('ttf');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /*************
@@ -89,6 +99,11 @@ SCHEDULE STYLING
   margin: 0;
   margin-top: 130px;
   text-align: center;
+  width: 100%;
+}
+
+.no-shows {
+  text-transform: uppercase;
   width: 100%;
 }
 
