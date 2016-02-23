@@ -90,10 +90,14 @@
     display: inline-block;
     width: 40%;
   }
-  .no-shows h3, .item h3 {
+  .item h3 {
     border: none;
     font-size: 2.2rem;
     padding-top: 10px;
+  }
+  .no-shows h3 {
+    font-size: 1.8rem;
+    padding: 15px 0;
   }
   .b-member {
     display: block;
